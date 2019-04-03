@@ -14,7 +14,7 @@ Listening on 0.0.0.0:8888
 ### Deployment
 
 This example can be deployed to Heroku using the
-[swift-buildpack](https://github.com/eduardopeixoto/swift-buildpack).
+[swift-buildpack](https://github.com/vapor-community/heroku-buildpack).
 
 Click the button below to automatically set up this example to run on your own Heroku account.
 

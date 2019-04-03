@@ -1,6 +1,6 @@
 {
     "name": "Hello World Example",
-    "description": "An example application using Swift+Kitura on Heroku.",
+    "description": "An example application using Swift+Vapor+Kitura on Heroku.",
     "repository": "https://github.com/eduardopeixoto/swift-buildpack-example",
     "website": "https://github.com/eduardopeixoto/swift-buildpack-example",
     "keywords": [
@@ -9,7 +9,7 @@
     ],
     "buildpacks": [
         {
-            "url": "https://github.com/eduardopeixoto/swift-buildpack"
+            "url": "https://github.com/vapor-community/heroku-buildpack"
         }
     ]
 }
