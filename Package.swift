@@ -3,6 +3,6 @@ import PackageDescription
 let package = Package(
   name: "HelloWorld",
   dependencies: [
-    .Package(url: "https://github.com/kylef/Curassow.git", majorVersion: 0, minor: 6),
+    .Package(url: "https://github.com/IBM-Swift/Kitura.git", .upToNextMajor(from: "2.6.2")),
   ]
 )

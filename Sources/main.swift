@@ -1,10 +1,7 @@
-#if os(Linux)
-import Glibc
-#endif
-import Inquiline
-import Curassow
+import Kitura
 
+let router = Router()
 
-serve { _ in
-  return Response(.ok, contentType: "text/plain", content: "Hello World\n")
-}
+Kitura.addHTTPServer(onPort: 8888, with: router)
+
+Kitura.run()

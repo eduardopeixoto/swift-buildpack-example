@@ -1,11 +1,11 @@
 {
-    "name": "Curassow Hello World Example",
-    "description": "An example application using Swift on Heroku.",
+    "name": "Hello World Example",
+    "description": "An example application using Swift+Kitura on Heroku.",
     "repository": "https://github.com/eduardopeixoto/swift-buildpack-example",
     "website": "https://github.com/eduardopeixoto/swift-buildpack-example",
     "keywords": [
         "swift",
-        "curassow"
+        "kitura"
     ],
     "buildpacks": [
         {
